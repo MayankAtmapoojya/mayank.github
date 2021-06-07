@@ -1,0 +1,23 @@
+body {
+	font: 'Ariel', serif;
+	text-align: center;
+	text-transform: uppercase;
+	color: rgba(0,0,0,0.5);
+	font-size: 40px;
+	letter-spacing: .5rem;
+	background: linear-gradient(to right, red, yellow);
+}
+h1{
+	width: 100%;
+	
+}
+h3{
+	letter-spacing: 0.2rem
+}
+function colorSelector(){
+	body.style.background = "linear-gradient(to right, "
+	+color1.value
+	+", "
+	+ color2.value
+	+")";
+}
